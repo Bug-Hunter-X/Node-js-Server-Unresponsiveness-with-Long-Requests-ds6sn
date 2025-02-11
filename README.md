@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness with Long Requests
+
+This repository demonstrates a common issue in Node.js applications where long-running requests can cause the server to become unresponsive.  The provided `server.js` file contains a simple HTTP server that simulates a long-running task, blocking the event loop and preventing other requests from being processed.  The `serverSolution.js` shows how to avoid this by using asynchronous operations and/or a worker thread.
